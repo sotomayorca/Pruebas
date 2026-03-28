@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puerto Panul | Vista previa del aplicativo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Puerto Panul S.A.</h1>
+        <p>Sistema de Hallazgos Preventivos</p>
+      </div>
+      <div class="chip">Demo visual · Iteración UI</div>
+    </header>
+
+    <main class="layout">
+      <section class="card">
+        <h2>Web · Dashboard</h2>
+        <div class="filters">
+          <span class="tag">Fecha: Últimos 7 días</span>
+          <span class="tag">Origen: Seguridad</span>
+          <span class="tag">Estado: Pendiente</span>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Descripción</th>
+              <th>Origen</th>
+              <th>Prioridad</th>
+              <th>Estado</th>
+              <th>Responsable</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PAN-2026-0012</td>
+              <td>Baranda suelta en Tolva 2</td>
+              <td>Seguridad</td>
+              <td><span class="priority high">Alta</span></td>
+              <td><span class="status pending">Pendiente</span></td>
+              <td>Carlos Gómez</td>
+            </tr>
+            <tr>
+              <td>PAN-2026-0013</td>
+              <td>Fuga menor en línea hidráulica</td>
+              <td>Mantenimiento</td>
+              <td><span class="priority med">Media</span></td>
+              <td><span class="status prog">En desarrollo</span></td>
+              <td>Ana Rojas</td>
+            </tr>
+            <tr>
+              <td>PAN-2026-0014</td>
+              <td>Iluminación deficiente en patio norte</td>
+              <td>Seguridad</td>
+              <td><span class="priority low">Baja</span></td>
+              <td><span class="status done">Resuelto</span></td>
+              <td>José Díaz</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="phone-wrap">
+        <h2>Móvil · Nuevo hallazgo</h2>
+        <article class="phone">
+          <div class="phone-header">Nuevo hallazgo</div>
+          <div class="phone-body">
+            <label>Foto</label>
+            <div class="photo">📷 Captura de cámara</div>
+
+            <label>Audio</label>
+            <div class="audio">🎙️ Grabación lista (00:19)</div>
+
+            <label>Transcripción editable</label>
+            <textarea>
+Se detecta baranda inestable en pasarela de Tolva 2, riesgo de caída de persona durante operación.
+            </textarea>
+
+            <div class="grid2">
+              <div>
+                <label>Origen</label>
+                <div class="input">Seguridad</div>
+              </div>
+              <div>
+                <label>Prioridad</label>
+                <div class="input">Alta</div>
+              </div>
+            </div>
+
+            <label>Ubicación</label>
+            <div class="input">Tolva 2 – zona descarga camiones</div>
+
+            <label>Responsable</label>
+            <div class="input">Carlos Gómez</div>
+
+            <button>Guardar hallazgo</button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+PUERTO PANUL - INSTRUCCIONES FACILES (SIN PROGRAMAR)
+====================================================
+
+OPCION 1 (LA MAS SIMPLE):
+-------------------------
+1) Haga doble clic en el archivo: VER_APP.bat
+2) Se abrira automaticamente la vista previa en su navegador.
+
+
+OPCION 2 (RECOMENDADA):
+-----------------------
+1) Haga doble clic en el archivo: INICIAR_APP_LOCAL.bat
+2) Espere unos segundos.
+3) Se abrira el navegador en: http://localhost:8080/preview/
+4) Para detenerlo, haga doble clic en: DETENER_APP_LOCAL.bat
+
+
+QUE VA A VER:
+-------------
+- Una pantalla web tipo dashboard con lista de hallazgos.
+- Una pantalla movil (maqueta) para crear un nuevo hallazgo.
+
+
+IMPORTANTE:
+-----------
+- Esto es una vista previa visual (maqueta), no el sistema final conectado a base de datos.
+- Sirve para revisar diseno y flujo antes de la implementacion completa.
